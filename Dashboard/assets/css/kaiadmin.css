@@ -5744,6 +5744,7 @@ label.error {
     display: none !important; } }
 @media screen and (min-width: 992px) {
   .main-header .main-header-logo {
+    
     display: none; }
 
   .main-panel > .container.container-full {
@@ -5835,11 +5836,15 @@ label.error {
     max-width: 350px;
     width: 100%; }
 
-  .main-header {
-    width: 100% !important;
-    transition: all .5s; }
-    .main-header .main-header-logo {
-      display: block; }
+    .main-header {
+      width: 100% !important;
+      transition: all 0.5s;
+  }
+  
+  .main-header .main-header-logo {
+      width: 200px; /* Un tamaño razonable para un logo */
+      height: auto;
+  }
 
   .dropdown-search {
     min-width: unset;

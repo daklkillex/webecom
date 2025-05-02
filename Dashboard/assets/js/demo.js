@@ -30,16 +30,11 @@ const modalShowcase = `
 					<div class="col-md-6 col-lg-4">
 						<div class="card-documentation h-100">
 							<div class="d-flex align-items-center flex-column justify-content-center text-center">
-								<img src="assets/img/kaiadmin/logo_documentation.png" height="60" alt="Read Documentation">
+								<img src="assets/img/logo.png" height="60" alt="Read Documentation">
 								<div class="docs-info ms-3 mb-4">
 									<h6 class="fw-bold mb-0 op-8 mt-1">Need help?</h6>
 									<p class="fw-bold mb-0 op-5">Please check our docs</p>
-								</div>
-							</div>
-							<a href="../../documentation/index.html" class="btn btn-primary w-100 mb-3">Documentation</a>
-							<a href="https://kaiadmin.themekita.com/" class="btn btn-secondary w-100">Buy Now</a>
-						</div>
-					</div>
+								
 					<div class="col-md-6 col-lg-4">
 						<div class="preview-showcase shadow-sm">
 							<a href="../demo1/index.html" data-kt-href="true" class="preview-thumbnail">
@@ -190,18 +185,7 @@ Circles.create({
 })
 
 //Notify
-$.notify({
-	icon: 'icon-bell',
-	title: 'Kaiadmin',
-	message: 'Premium Bootstrap 5 Admin Dashboard',
-},{
-	type: 'secondary',
-	placement: {
-		from: "bottom",
-		align: "right"
-	},
-	time: 1000,
-});
+
 
 // Jsvectormap
 var world_map = new jsVectorMap({
